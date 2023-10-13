@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link
+    <link rel="stylesheet" href="style.css">
+   <href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+     rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+ <title>Movies</title>
+</head>
+
+<style>
+    html::-webkit-scrollbar {
+     width: 10px;
+ 
+    }
+ 
+    ::-webkit-scrollbar-track {
+     border-radius: 5px;
+     box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+     background-color: #151515;
+    }
+ 
+    ::-webkit-scrollbar-thumb {
+     border-radius: 5px;
+     background-color: #fc7405;
+    }
+ 
+    ::-webkit-scrollbar-thumb:hover {
+     background-color: #ff9239;
+    }
+ 
+ </style>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">Animeflix</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a href="index.html">Home</a></li>
+                       <li class="menu-list-item"><a href="Movies.html">Movies</a></li>
+                       <li class="menu-list-item"><a href="series.html">Series</a></li>
+                       <li class="menu-list-item"><a href="My list.html">My List</a></li>
+                       <div class="search-box">
+                        <input class="search-txt" type="text" name="" placeholder="search for animes">
+                        <a class="search-btn" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                    </div>
+         <div class="profile-container">
+             <a href="signup.html"><img class="profile-picture" src="img/profile.png" alt=""></a>
+             <div class="profile-text-container">
+                 <span class="profile-text">Profile</span>
+                 <i class="fas fa-caret-down"></i>
+             </div>
+             <div class="toggle">
+                 <i class="fas fa-moon toggle-icon"></i>
+                 <i class="fas fa-sun toggle-icon"></i>
+                 <div class="toggle-ball"></div>
+
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="sidebar">
+     <i class="left-menu-icon fas fa-search"></i>
+     <i class="left-menu-icon fas fa-home"></i>
+     <i class="left-menu-icon fas fa-users"></i>
+     <i class="left-menu-icon fas fa-bookmark"></i>                       
+     <i class="left-menu-icon fas fa-hourglass-start"></i>
+ </div>
+ <div class="container">
+     <div class="content-container">
+         <div class="featured-content"
+             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/afro.jpg');">
+             <img class="featured-title" src="img/afro logo.png" alt="">
+             <p class="featured-desc">Afro Samurai is the story of a Black samurai in a futuristic yet feudal Japan who is on a mission to avenge the wrongful death of his father. Afro is a warrior who travels a solitary path encountering a myriad of enemies, friends, and challenges beyond imagination.</p>
+             <button class="featured-button">WATCH</button>
+         </div>
+         <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://www.bubbleblabber.com/wp-content/uploads/2022/03/bubble.jpeg" alt="">
+                        <span class="movie-list-item-title">Bubble</span>
+                        <p class="movie-list-item-desc">The city skyline becomes a playground for young people competing in parkour team battles Hibiki plummets into the sea but is saved by a girl with mysterious powers.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://upload.wikimedia.org/wikipedia/en/7/77/Gekij%C5%8D-ban_Jujutsu_Kaisen_0.png" alt="">
+                        <span class="movie-list-item-title">Jujutsu Kaisen 0: The Movie</span>
+                        <p class="movie-list-item-desc">Yuta Okkotsu gains control of an extremely powerful cursed spirit and gets enrolled in the Tokyo Prefectural Jujutsu High School by sorcerers to help him control his power and keep an eye on him.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://filmdaily.co/wp-content/uploads/2022/08/one-piece-min.jpeg" alt="">
+                        <span class="movie-list-item-title">One Piece Film Red</span>
+                        <p class="movie-list-item-desc">Now for the first time ever Uta will reveal herself to the world at a live concert.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://img.youtube.com/vi/6c4GAIig9gY/sddefault.jpg" alt="">
+                        <span class="movie-list-item-title">Suzume no Tojimari</span>
+                        <p class="movie-list-item-desc">Seventeen-year-old Suzume discovers a mysterious door in the mountains and soon other doors begin appearing across Japan As the doors open they release disasters and destruction and it's up to Suzume to close them again.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://miro.medium.com/max/460/1*5xeyAVj-rcROY93UDO8fLg.jpeg" alt="">
+                        <span class="movie-list-item-title">Blame!</span>
+                        <p class="movie-list-item-desc">A virus causes these automated systems to malfunction sending humanity to the brink of extinction as their own defenses turn on them..</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://images.alphacoders.com/112/1120823.jpg" alt="">
+                        <span class="movie-list-item-title">Batman:Gotham Knight</span>
+                        <p class="movie-list-item-desc">A collection of the key events that have marked Bruce Wayne's life as he journeys from beginner vigilante to the Dark Knight.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://flxt.tmsimg.com/assets/p10284336_p_v8_aa.jpg" alt="">
+                        <span class="movie-list-item-title">Evangelion:3.0 You Can (Not) Redo</span>
+                        <p class="movie-list-item-desc">Shinji awakes on ruined Earth 14 years after a third impact, and finds that people have turned against him.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://bxerblog.files.wordpress.com/2014/07/strong-world-one-piece-34106704-1024-768.jpg" alt="">
+                        <span class="movie-list-item-title">One Piece:Strong World</span>
+                        <p class="movie-list-item-desc">The infamous pirate Shiki kidnaps the straw hat pirate crew in his quest to fight the world government forcing one of them to act as his navigator.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://www.animenewsnetwork.com/images/encyc/A21145-3876560823.1561946545.jpg" alt="">
+                        <span class="movie-list-item-title">Sailor Moon Eternal</span>
+                        <p class="movie-list-item-desc">After a total solar eclipse a dark circus troupe appears, Mamoru is stricken with a mysterious malady and bad things start happening across the city.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://images.justwatch.com/poster/165118506/s718/ni-no-kuni.%7Bformat%7D" alt="">
+                        <span class="movie-list-item-title">NiNoKuni</span>
+                        <p class="movie-list-item-desc">While trying out a new vehicle designed by his friend Philip, Oliver almost drowns but is saved by his mother Allie who immediately after dies from heart problems.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://flxt.tmsimg.com/assets/p8985898_p_v8_ac.jpg" alt="">
+                        <span class="movie-list-item-title">The Cat Returns</span>
+                        <p class="movie-list-item-desc">High school student Haru rescues a cat that was about to be run over by a truck and discovers the cat is actually a prince named Lune Out of gratitud Lune's father the Cat King asks her to marry Lune.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Drifting_Home_Poster.jpg/220px-Drifting_Home_Poster.jpg" alt="">
+                        <span class="movie-list-item-title">Drifting Home</span>
+                        <p class="movie-list-item-desc">During summer break sixth graders Kosuke and Natsume play in an apartment building set to be demolished They find themselves caught up in a strange phenomenon</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://cps-static.rovicorp.com/2/Open/Netflix/Program/40571919/_derived_jpg_q90_310x470_m0/40571919_AWhiskerAway_SC4_27_1591956486692_5.jpg" alt="">
+                        <span class="movie-list-item-title">A Whisker Away</span>
+                        <p class="movie-list-item-desc">Secretly in love with her classmate Kento Miyo takes the help of a mysterious mask and transforms into a cat to get closer to him However trouble ensues when she begins to lose herself.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://www.leisurebyte.com/wp-content/uploads/2021/10/Pokemon-the-Movie-Secrets-of-the-Jungle-Poster-1024x747.jpg" alt="">
+                        <span class="movie-list-item-title">Pokémon the Movie:Secrets of the Jungle</span>
+                        <p class="movie-list-item-desc">A young boy who lives in the jungle with a solitary Zarude and is raised by Pokémon.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BZTY4MWUyZDMtNGVkZS00M2Q2LTliMTAtYmQzNTMyMzJlZTNmXkEyXkFqcGdeQXVyMjI5MjYyMjg@._V1_.jpg" alt="">
+                        <span class="movie-list-item-title">Ponyo</span>
+                        <p class="movie-list-item-desc">Sosuke rescues a goldfish trapped in a bottle. The goldfish, who is the daughter of a wizard, transforms herself into a young girl with her father's magic and falls in love with Sosuke.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://www.scifipulse.net/wp-content/uploads/2014/08/Avengers.jpg" alt="">
+                        <span class="movie-list-item-title">Avengers Confidential</span>
+                        <p class="movie-list-item-desc">Punisher and Black Widow are sent on a mission to stop Leviathan, a global terrorist organisation that plans to sell stolen S.H.I.E.L.D.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://thehoganreviews.files.wordpress.com/2020/06/altered-carbon-resleeved.jpg?w=640" alt="">
+                        <span class="movie-list-item-title">Altered Carbon</span>
+                        <p class="movie-list-item-desc">Takeshi Kovacs protects a young tattoo artist while investigating the death of a yakuza boss on the planet Latimer.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://i.ytimg.com/vi/oDuuQ49ajKM/maxresdefault.jpg" alt="">
+                        <span class="movie-list-item-title">Paprika</span>
+                        <p class="movie-list-item-desc">Dr. Atsuko Chiba works as a scientist by day and, under the code name "Paprika," is a dream detective at night.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://fictionhorizon.com/wp-content/uploads/2021/10/bright-samurai-soul-feat-1024x512.jpeg" alt="">
+                        <span class="movie-list-item-title">Bright:Samurai Soul</span>
+                        <p class="movie-list-item-desc">n the early years of Japan's Meiji Restoration, a human Ronin must unite with an orc assassin to save an elf orphan from their common adversary.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/444/key_art_tiger_and_bunny.jpg" alt="">
+                        <span class="movie-list-item-title">Tiger & Bunny:The Rising</span>
+                        <p class="movie-list-item-desc">Apollon Media's new owner fires Kotetsu and pairs Barnaby with a new partner.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://anygoodfilms.com/wp-content/uploads/2016/09/kubo.jpg" alt="">
+                        <span class="movie-list-item-title">Kubo&the Two Strings</span>
+                        <p class="movie-list-item-desc">Kubo a young boy along with Monkey and Beetle must find and wear his father's legendary suit of armour in order to defeat an evil spirit.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BZTgxYTQ0ZGMtNTVkZC00ZDNiLWJiMzAtZGZiMWM1ZjJlNDU2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg" alt="">
+                        <span class="movie-list-item-title">One Piece Movie:The Desert Princess</span>
+                        <p class="movie-list-item-desc">A re-telling of the Alabaster Arc from One Piece (TV). Luffy and his crew come to rescue a land in the midst of a civil war, due to a powerful devil fruit user.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BMjJlMmI5YzAtNzY4YS00YzMzLTk0ZDAtMjUwMWU0OTdhYTkzXkEyXkFqcGdeQXVyMDEyMDU1Mw@@._V1_.jpg" alt="">
+                        <span class="movie-list-item-title">Batman Ninja</span>
+                        <p class="movie-list-item-desc">Batman, along with his allies and adversaries, finds himself transported from modern Gotham City to feudal Japan.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://assets.mubicdn.net/images/artworks/525800/images-original.png?1677801697" alt="">
+                        <span class="movie-list-item-title">Ghost in the Shell</span>
+                        <p class="movie-list-item-desc">Her pursuit of a man who can modify the identity of strangers leaves Motoko pondering her own makeup.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://wherever-i-look.com/wp-content/uploads/2017/10/17884439_1219075488218530_2278851183611588334_n.jpg" alt="">
+                        <span class="movie-list-item-title">A Silent Voice</span>
+                        <p class="movie-list-item-desc">When a grade school student with impaired hearing is bullied mercilessly, she transfers to another school Years later one of her former tormentors sets out to make amends.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/ca8fccf4405b70ef7bf52c4eb2101504.jpeg" alt="">
+                        <span class="movie-list-item-title">Wolf Children</span>
+                        <p class="movie-list-item-desc">Hana marries a wolf man and raises their two children alone after he dies They move to the countryside and the children have adventures in the woods and at school.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://nefariousreviews.files.wordpress.com/2017/06/akira-featured.jpg?w=640" alt="">
+                        <span class="movie-list-item-title">Akira</span>
+                        <p class="movie-list-item-desc">Biker Kaneda is confronted by many anti-social elements while trying to help his friend Tetsuo who is involved in a secret government project.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://miro.medium.com/v2/resize:fit:1200/1*rIxGYotAqp_OlA8cMSdYpw.jpeg" alt="">
+                        <span class="movie-list-item-title">The Wind Rises</span>
+                        <p class="movie-list-item-desc">Unable to pursue his dream of becoming a pilot due to his eyesight, Jiro strives hard and draws inspiration from Giovanni Caproni.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://i0.wp.com/animediet.net/wp-content/uploads/2014/09/barakamon1c.png" alt="">
+                        <span class="movie-list-item-title">Barakamon</span>
+                        <p class="movie-list-item-desc">The story follows Seishu Handa, a calligrapher who moves to the remote Goto Islands off the western coast of Kyushu, and his various interactions with the people of the island.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://res.cloudinary.com/jerrick/image/upload/v1500162428/tmnvplh82xljg59n2ic3.jpg" alt="">
+                        <span class="movie-list-item-title">Death Parade</span>
+                        <p class="movie-list-item-desc">After death humans are either reincarnated or sent to the void. Before this happens they arrive at the Quindecim a bar attended by the mysterious white-haired Decim.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537450556l/41951348.jpg" alt="">
+                        <span class="movie-list-item-title">The Tatami Galaxy</span>
+                        <p class="movie-list-item-desc">Follows an unnamed third-year student at Kyoto University, using parallel universes as a plot device to explore how his life would have differed had he joined a particular student society.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://cdn.animenewsnetwork.com/thumbnails/crop900x350/video/category/794/key_art_kids_on_the_slope.jpg" alt="">
+                        <span class="movie-list-item-title">Kids on the Slope</span>
+                        <p class="movie-list-item-desc">Kaoru Nishimi, an intelligent, introverted first-year high school student from a wealthy family who moves cities frequently as a result of his father's career.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Clannad_movie.jpg/220px-Clannad_movie.jpg" alt="">
+                        <span class="movie-list-item-title">Clannad</span>
+                        <p class="movie-list-item-desc">The story follows the life of Tomoya Okazaki, from adolescence to adulthood.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://thecinemaholic.com/wp-content/uploads/2018/08/spice-and-wolf-wall-scroll-kraft-and-holo-long.jpg" alt="">
+                        <span class="movie-list-item-title">Spice and Wolf</span>
+                        <p class="movie-list-item-desc">Kraft Lawrence a 25-year-old traveling merchant who peddles various goods from town to town to make a living in a stylized fictional world with a historical setting with European influences.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BODc2ZTk1OTctMTIyNy00Y2U5LThiOTUtN2Y4NGJlYTM0ODE0XkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_.jpg" alt="">
+                        <span class="movie-list-item-title">March Comes in Like a Lion</span>
+                        <p class="movie-list-item-desc">17-year-old Kiriyama Rei is a promising professional shogi player His family died in an accident when he was young and he was adopted by his father's friend Koda.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title"></h1>
+            <div class="movie-list-wrapper">
+                <div class="movie-list">
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://flxt.tmsimg.com/assets/p14946051_b_v13_aa.jpg" alt="">
+                        <span class="movie-list-item-title">Devilman Crybaby</span>
+                        <p class="movie-list-item-desc">With demons reawakened and humanity in turmoil a sensitive demon-boy is led into a brutal degenerate war against evil by his mysterious friend Ryo.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BZTViMTZlMjgtNjVmZC00NjEzLWJlN2QtMjQ4ZTYxNzBiZmMyXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_UY1200_CR85,0,630,1200_AL_.jpg" alt="">
+                        <span class="movie-list-item-title">Parasyte</span>
+                        <p class="movie-list-item-desc">17-year-old Shinichi Izumi is partially infected by a Parasyte monsters that butcher and consume humans.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://fwcdn.pl/fpo/43/57/34357/7249540_1.3.jpg" alt="">
+                        <span class="movie-list-item-title">Hellsing</span>
+                        <p class="movie-list-item-desc">Hellsing is to search for and destroy the undead and other supernatural forces of evil that threaten the queen and the country.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://assets-prd.ignimgs.com/2022/09/27/boogiepop-phantom-1664248174397.jpeg?fit=bounds&width=1280&height=720" alt="">
+                        <span class="movie-list-item-title">Boogiepop Phantom</span>
+                        <p class="movie-list-item-desc">The story takes place in an unnamed Japanese city a month after a pillar of light appeared in the night sky and five years after a string of serial killings.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://meltingpotsandothercalamities.files.wordpress.com/2017/02/img_6438.jpg" alt="">
+                        <span class="movie-list-item-title">Tokyo Ghoul</span>
+                        <p class="movie-list-item-desc">A college student is attacked by a ghoul a being that feeds on human flesh He later receives an organ transplant from the ghoul becoming part monster himself.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/I/91SGvhAUfSL._RI_.jpg" alt="">
+                        <span class="movie-list-item-title">Paranoia Agent</span>
+                        <p class="movie-list-item-desc">A social phenomenon in Musashino Tokyo caused by a juvenile serial assailant named Lil' Slugger.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                    <div class="movie-list-item">
+                        <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BNWYzYjkwNTMtODk0MS00Y2RjLWIzNDEtMmUyNzM3OGEwNTE5XkEyXkFqcGdeQXVyNjUxMDQ0MTg@._V1_.jpg" alt="">
+                        <span class="movie-list-item-title">Perfect Blue</span>
+                        <p class="movie-list-item-desc">A singer quits her band to become an actress and sheds her "good girl" image to further her career.</p>
+                        <button class="movie-list-item-button">Watch</button>
+                    </div>
+                </div>
+                <i class="fas fa-chevron-right arrow"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="apps.js"></script>
+   
+</body>
+</html>
+         
